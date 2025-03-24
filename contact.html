@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,6 +11,18 @@
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
 
     <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
         a.navbar-brand {
             font-size: large;
             color: white;
@@ -76,7 +89,8 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="login.html"><i class="bi bi-person fs-4"></i></a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="login.html"><i
+                                class="bi bi-person fs-4"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-bag fs-4"></i></a>
                     </li>
                 </ul>
@@ -84,45 +98,47 @@
         </div>
     </nav>
 
-    <div class="container my-5">
+    <main>
+        <div class="container my-5">
 
-        <div class="text-center mb-5">
-            <h2 class="fw-bold text-uppercase">Contact us!</h2>
-            <div class="mx-auto" style="width: 60px; height: 3px; background-color: #299def; margin-bottom: 1rem;">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-uppercase">Contact us!</h2>
+                <div class="mx-auto" style="width: 60px; height: 3px; background-color: #299def; margin-bottom: 1rem;">
+                </div>
+                <p class="text-muted">Got questions or ideas? We're here to turn them into stunning websites.</p>
             </div>
-            <p class="text-muted">Got questions or ideas? We're here to turn them into stunning websites.</p>
+
+            <div class="row g-0 shadow rounded overflow-hidden">
+                <div class="col-lg-6 bg-dark text-light p-4 d-flex flex-column justify-content-center">
+                    <div class="mb-4 text-center">
+                        <i class="fas fa-map-marker-alt fa-2x mb-2"></i>
+                        <h6 class="text-uppercase fw-bold">Address:</h6>
+                        <p class="mb-0">Sõpruse pst 182, 13424 Tallinn</p>
+                    </div>
+
+                    <div class="mb-4 text-center">
+                        <i class="fas fa-envelope fa-2x mb-2"></i>
+                        <h6 class="text-uppercase fw-bold">E-mail:</h6>
+                        <p class="mb-0">example@webpagers.com</p>
+                    </div>
+
+                    <div class="mb-4 text-center">
+                        <i class="fas fa-phone fa-2x mb-2"></i>
+                        <h6 class="text-uppercase fw-bold">Phone number:</h6>
+                        <p class="mb-0">+372 5555 1234</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <iframe src="https://www.google.com/maps?q=Sõpruse%20pst%20182%2C%2013424%20Tallinn&output=embed"
+                        allowfullscreen="" loading="lazy"
+                        style="width: 100%; height: 100%; min-height: 400px; border: 0;">
+                    </iframe>
+                </div>
+            </div>
         </div>
-
-        <div class="row g-0 shadow rounded overflow-hidden">
-            <div class="col-lg-6 bg-dark text-light p-4 d-flex flex-column justify-content-center">
-                <div class="mb-4 text-center">
-                    <i class="fas fa-map-marker-alt fa-2x mb-2"></i>
-                    <h6 class="text-uppercase fw-bold">Address:</h6>
-                    <p class="mb-0">Sõpruse pst 182, 13424 Tallinn</p>
-                </div>
-
-                <div class="mb-4 text-center">
-                    <i class="fas fa-envelope fa-2x mb-2"></i>
-                    <h6 class="text-uppercase fw-bold">E-mail:</h6>
-                    <p class="mb-0">example@webpagers.com</p>
-                </div>
-
-                <div class="mb-4 text-center">
-                    <i class="fas fa-phone fa-2x mb-2"></i>
-                    <h6 class="text-uppercase fw-bold">Phone number:</h6>
-                    <p class="mb-0">+372 5555 1234</p>
-                </div>
-
-            </div>
-
-            <div class="col-lg-6">
-                <iframe src="https://www.google.com/maps?q=Sõpruse%20pst%20182%2C%2013424%20Tallinn&output=embed"
-                    allowfullscreen="" loading="lazy" style="width: 100%; height: 100%; min-height: 400px; border: 0;">
-                </iframe>
-            </div>
-        </div>
-    </div>
-
+    </main>
 
     <footer class="text-center text-white bg-dark">
         <div class="container py-2">

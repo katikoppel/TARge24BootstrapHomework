@@ -12,6 +12,18 @@
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
 
     <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
         .post-image {
             object-fit: cover;
             height: 400px;
@@ -31,8 +43,9 @@
             color: #299def;
         }
     </style>
-    
+
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
@@ -59,7 +72,8 @@
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
-                    <li class="nav-item mx-2"><a class="nav-link" href="login.html"><i class="bi bi-person fs-4"></i></a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="login.html"><i
+                                class="bi bi-person fs-4"></i></a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-bag fs-4"></i></a>
                     </li>
                 </ul>
@@ -67,66 +81,86 @@
         </div>
     </nav>
 
-    <div class="container my-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="blog-header mb-4">
-                    <h1 class="fw-bold">The Birth of Our Brand</h1>
-                    <p class="text-muted fst-italic">Posted on March 3, 2025 by Kati Koppel</p>
-                </div>
+    <main>
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="blog-header mb-4">
+                        <h1 class="fw-bold">The Birth of Our Brand</h1>
+                        <p class="text-muted fst-italic">Posted on March 3, 2025 by Kati Koppel</p>
+                    </div>
 
-                <img src="./images/picture7.jpg" class="post-image mb-4 shadow-sm">
+                    <img src="./images/picture7.jpg" class="post-image mb-4 shadow-sm">
 
-                <div class="content">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna. Praesent
-                        ultrices
-                        malesuada fermentum. Nulla sed posuere nisi, nec condimentum nunc. Etiam rutrum, augue ut
-                        facilisis
-                        fringilla, lorem arcu commodo sem, nec sodales justo ligula nec leo. Lorem ipsum dolor sit, amet
-                        consectetur adipisicing elit. Doloribus, culpa iste aut temporibus odio unde similique nemo
-                        assumenda saepe est aliquam possimus? Quidem repudiandae commodi, maiores quibusdam delectus
-                        iste at?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quas perferendis necessitatibus quis suscipit repudiandae magni eligendi. Doloremque, aliquid ab? Minima, obcaecati. Libero tenetur maiores neque non atque accusantium repellat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione ducimus eos tenetur, nam accusamus assumenda provident cupiditate. Veniam facilis fugit tempore in nesciunt adipisci accusantium commodi, quo minus voluptates quidem!
-                    </p>
-                    <p>
-                        Aliquam erat volutpat. Curabitur at libero ac nisi efficitur blandit. Integer sodales volutpat
-                        massa,
-                        nec sagittis odio gravida at. Nullam quis velit vitae quam ultrices efficitur. Vivamus congue
-                        tellus
-                        quis felis finibus, et ultricies lacus vulputate. Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Aut dolorem sunt minus voluptas suscipit labore quisquam sint distinctio
-                        reiciendis culpa architecto impedit, ipsa numquam libero debitis hic optio explicabo eum?
-                    </p>
-                    <blockquote class="blockquote border-start ps-3 my-4">
-                        <p class="mb-0 fst-italic text-secondary">“Optio, cumque numquam deserunt modi veniam sapiente
-                            suscipit neque vel id nobis iusto explicabo porro ea!” – Peter Pan</p>
-                    </blockquote>
-                    <p>
-                        Maecenas ac elit ut nulla posuere porttitor. Sed nec nibh non odio tristique ornare.
-                        Pellentesque
-                        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin rhoncus
-                        odio a
-                        sapien faucibus gravida. Quisque fermentum velit nec dui iaculis, nec interdum quam convallis.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil fuga natus eveniet vero corrupti
-                        voluptas aliquam optio sapiente odit, nisi reiciendis voluptatibus aliquid esse corporis officia
-                        magnam quos labore alias.
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam explicabo, repellendus
-                        temporibus consectetur eos iste ducimus, fuga delectus similique iure officia animi expedita
-                        ipsam aut quidem suscipit earum fugiat ab! Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Fugiat enim dicta sed dolores voluptate ratione libero sint facere laudantium, veritatis
-                        consequuntur tempora maxime ea dolorem illo, laborum hic blanditiis ipsum. Lorem ipsum dolor
-                        sit, amet consectetur adipisicing elit. Sit accusamus deserunt rem quam dolor eius velit totam
-                        ut ducimus quo, voluptatum esse iure ex! Quos reprehenderit fugit exercitationem eligendi illo?
-                    </p>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet facilisis urna.
+                            Praesent
+                            ultrices
+                            malesuada fermentum. Nulla sed posuere nisi, nec condimentum nunc. Etiam rutrum, augue ut
+                            facilisis
+                            fringilla, lorem arcu commodo sem, nec sodales justo ligula nec leo. Lorem ipsum dolor sit,
+                            amet
+                            consectetur adipisicing elit. Doloribus, culpa iste aut temporibus odio unde similique nemo
+                            assumenda saepe est aliquam possimus? Quidem repudiandae commodi, maiores quibusdam delectus
+                            iste at?
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quas perferendis
+                            necessitatibus quis suscipit repudiandae magni eligendi. Doloremque, aliquid ab? Minima,
+                            obcaecati. Libero tenetur maiores neque non atque accusantium repellat. Lorem ipsum dolor
+                            sit amet consectetur, adipisicing elit. Ratione ducimus eos tenetur, nam accusamus assumenda
+                            provident cupiditate. Veniam facilis fugit tempore in nesciunt adipisci accusantium commodi,
+                            quo minus voluptates quidem!
+                        </p>
+                        <p>
+                            Aliquam erat volutpat. Curabitur at libero ac nisi efficitur blandit. Integer sodales
+                            volutpat
+                            massa,
+                            nec sagittis odio gravida at. Nullam quis velit vitae quam ultrices efficitur. Vivamus
+                            congue
+                            tellus
+                            quis felis finibus, et ultricies lacus vulputate. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Aut dolorem sunt minus voluptas suscipit labore quisquam sint distinctio
+                            reiciendis culpa architecto impedit, ipsa numquam libero debitis hic optio explicabo eum?
+                        </p>
+                        <blockquote class="blockquote border-start ps-3 my-4">
+                            <p class="mb-0 fst-italic text-secondary">“Optio, cumque numquam deserunt modi veniam
+                                sapiente
+                                suscipit neque vel id nobis iusto explicabo porro ea!” – Peter Pan</p>
+                        </blockquote>
+                        <p>
+                            Maecenas ac elit ut nulla posuere porttitor. Sed nec nibh non odio tristique ornare.
+                            Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin
+                            rhoncus
+                            odio a
+                            sapien faucibus gravida. Quisque fermentum velit nec dui iaculis, nec interdum quam
+                            convallis.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil fuga natus eveniet vero
+                            corrupti
+                            voluptas aliquam optio sapiente odit, nisi reiciendis voluptatibus aliquid esse corporis
+                            officia
+                            magnam quos labore alias.
+                        </p>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam explicabo, repellendus
+                            temporibus consectetur eos iste ducimus, fuga delectus similique iure officia animi expedita
+                            ipsam aut quidem suscipit earum fugiat ab! Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit. Fugiat enim dicta sed dolores voluptate ratione libero sint facere laudantium,
+                            veritatis
+                            consequuntur tempora maxime ea dolorem illo, laborum hic blanditiis ipsum. Lorem ipsum dolor
+                            sit, amet consectetur adipisicing elit. Sit accusamus deserunt rem quam dolor eius velit
+                            totam
+                            ut ducimus quo, voluptatum esse iure ex! Quos reprehenderit fugit exercitationem eligendi
+                            illo?
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <footer class="text-center text-white bg-dark">
         <div class="container py-2">
