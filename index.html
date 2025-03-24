@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+
     <style>
         a.navbar-brand {
             font-size: large;
             color: white;
         }
 
-        .navbar-dark .navbar-nav .nav-link {
+        .navbar-dark .navbar-nav .nav-link{
             color: white;
         }
 
@@ -39,17 +39,22 @@
         footer i {
             font-size: 1.3rem;
         }
+
+        .button1:hover {
+            color: white;
+            background-color: #299def;
+            border-color: #299def;
+        }
     </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
         <div class="container d-flex align-items-center justify-content-between">
-
-            <a class="navbar-brand" href="/index.html">
-                <img src="./images/logo.png" width="35%" height="35%" alt="Logo">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/logo.png" width="35%" height="35%" />
             </a>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -58,41 +63,20 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Blog
-                        </a>
+                            data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="blog.html">Blog Posts</a></li>
                             <li><a class="dropdown-item" href="archive.html">Archive</a></li>
                         </ul>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contacts</a>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="login.html"><i class="bi bi-person fs-4"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-bag fs-4"></i></a>
                     </li>
-
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="login.html">
-                            <i class="bi bi-person fs-4"></i>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">
-                            <i class="bi bi-bag fs-4"></i>
-                        </a>
-                    </li>
-
                 </ul>
             </div>
         </div>
@@ -131,7 +115,7 @@
             <form class="d-flex" role="search">
                 <input class="form-control border-white me-2" type="search" placeholder="Search..."
                     aria-label="Search">
-                <button class="btn btn-light" type="submit">Search</button>
+                <button class="btn btn-light button1" type="submit">Search</button>
             </form>
         </div>
 
@@ -176,11 +160,11 @@
                         </div>
 
                         <div class="col-12 col-md-5 mb-md-0">
-                            <input type="email" class="form-control" placeholder="Enter your e-mail address" />
+                            <input type="email" class="form-control" placeholder="Your e-mail address" />
                         </div>
 
                         <div class="col-12 col-md-auto">
-                            <button type="submit" class="btn btn-outline-light">
+                            <button type="submit" class="btn btn-outline-light button1">
                                 Subscribe
                             </button>
                         </div>
